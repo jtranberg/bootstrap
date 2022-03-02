@@ -1,0 +1,71 @@
+/* css styles */
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    background-color: #ae77e0;
+}
+header{
+    background-color: blue;
+    height: 250px;
+
+}
+a {
+    color: beige;
+}
+a:hover {
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    font-size: 14px;
+    padding-top: 18px;
+
+}
+nav li {
+    padding: 10px;
+}
+
+.logo {
+    padding-top: 10px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    text-transform: uppercase;
+    color: #ffff;
+}
+#headertext {
+    color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 320px;
+}
+
+.blurb {
+    color: aqua;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#bootstrap {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+footer {
+    background-color: aqua;
+    height: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+    padding-top: 10px;
+    padding-left: 15px;
+
+}
